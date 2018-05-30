@@ -1,0 +1,214 @@
+/* General insructions */
+
+*{
+    box-sizing:border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin-bottom: 20px;
+}
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    display: block;
+}
+
+body{
+    font-family: 'Roboto', 'Arial';
+    font-size:16px;
+    line-height:1.5;
+    color:#1b341a;
+}
+
+/* Main layout */
+.clearfix:after{
+    display:table;
+    clear:both;
+    content:"";
+}
+.wrapper{
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    height:100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.container--vertical-align:before{
+    content:'';
+    display: inline-block;
+    height:100%;
+    vertical-align: middle;
+}
+
+.maintitle{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 38px;
+    color: #1b341a;
+}
+
+.title--low{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* Nav */
+.nav{
+    width: 100%;
+    background-color: #86abc4;
+    color:#1b341a;
+    height: 75px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.nav-link{
+    display:inline-block;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    background-color: #1b341a;
+    color: white;
+    vertical-align: middle;
+    transition:0.6s;
+    border-radius: 5px;
+}
+.nav-icon{
+    margin-left: 15px;
+}
+.nav-link:hover{
+    background-color: #717d85;
+    transition: 0.6s;
+}
+.extlink{
+    display: inline-block;
+    margin-bottom: 70px;
+}
+a[href^="http://"], a[href^="https://"]{
+    color:#1b341a;
+}
+a[href^="http://"]:hover, a[href^="https://"]:hover{
+    color:#717d85;
+}
+
+/* Content */
+.content{
+    margin-bottom: 50px;
+}
+.text p::first-letter, .person p::first-letter{
+    font-size: 36px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #86abc4;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.news{
+    margin-bottom: 50px;
+}
+.news:last-of-type{
+    margin-bottom: 0;
+}
+.person{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #86abc4;
+}
+.person:first-of-type{
+    padding-top: 0;
+}
+.person:last-of-type{
+    margin-bottom: 0;
+}
+.img{
+    width: 250px;
+    height: auto;
+    background-size: cover;
+    border:3px solid #717d85;
+}
+.img-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.img-link{
+    display: inline-block;
+}
+.img--left{
+    float:left;
+    margin-right: 20px;
+}
+.img--right{
+    float:right;
+    margin-left: 20px;
+}
+.copyright{
+    font-size:10px;
+    margin-bottom: 15px;
+}
+
+.mega-table{
+    width: 100%;
+}
+
+table {
+    border-width: 1px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    background-color: #fffff0;
+    margin-bottom: 71px;
+}
+
+.move-cell{
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid black;
+
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+
+    height: 50px;
+    vertical-align: bottom;
+}
+
+/*Use the :hover selector on <tr> to highlight table rows on mouse over:*/
+tr:hover {background-color: #f5f5f5;}
+
+/*For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:*/
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*Here I color heading row of the table*/
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
