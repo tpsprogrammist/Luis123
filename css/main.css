@@ -80,6 +80,7 @@ button, input, select, textarea {
   margin-right: auto;
   margin-top: 10px;
 }
+
 textarea{
   /* resize: both; */
     overflow: auto;
