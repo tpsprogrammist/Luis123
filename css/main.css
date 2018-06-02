@@ -28,9 +28,12 @@ label{
     background-color: #86abc4;
     color:#1b341a;
     height: 75px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     /* vertical-align:   middle; */
     border-radius: 10px;
@@ -54,6 +57,19 @@ text{
   size: 35;
 } */
 
+.checkbox .radio{
+  display: inline;
+}
+
+input.radio{
+  display: inline;
+}
+
+input.checkbox{
+  display: inline;
+
+}
+
 textarea{
   border-radius: 5px;
 }
@@ -69,6 +85,7 @@ textarea{
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: auto;
+    margin-bottom: 10px;
 }
 button, input, select, textarea {
   font-family : inherit;
@@ -88,11 +105,13 @@ textarea{
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 select{
   display: block;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 200px;
 }
  select option{
