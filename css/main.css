@@ -114,6 +114,14 @@ input submit{
   margin-right: auto;
 }
 
+.ibutton{
+    padding: .5rem 2.4rem;
+    background: #EF6530;
+    color: #FFF;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+}
 /* input radio{
   display: inline;
 } */
