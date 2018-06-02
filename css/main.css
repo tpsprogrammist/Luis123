@@ -19,6 +19,14 @@ html,body{
 
 label{
     display: block;
+    font-family: cursive;
+    font-size: 14;
+    text-align: center;
+}
+
+input{
+  display: block;
+  align-items: center;
 }
 
 body{
