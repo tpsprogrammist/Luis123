@@ -23,14 +23,18 @@
                 <a class="nav-link" href="info.html">Personality<i class="far fa-address-book nav-icon"></i></a>
             </div>
         </nav>
+        <h1>Tennis polls: what is your opinion?</h1>
         <div class="container">
             <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
-              <input type="textbox">
-              <textbox id="tx1" value="Luis" />
+              <!-- <input type="textbox"> -->
+              <!-- <textbox id="tx1" value="Luis" /> -->
+
               <label>Who is your favorite player?</label>
-              <input type="radio" name="player" value="Nadal">Nadal<br>
-              <input type="radio" name="player" value="Federer">Federer<br>
-              <input type="radio" name="player" value="Zverev">Zverev<br>
+              <div class="pollb">
+              <input type="radio" name="player" value="Nadal">Rafael Nadal<br>
+              <input type="radio" name="player" value="Federer">Roger Federer<br>
+              <input type="radio" name="player" value="Zverev">Alexander Zverev<br>
+            </div>
 
               <label>Which Grand Slam Tournaments are you going to visit next year?</label>
               <input type="checkbox">Australian Open</checkbox>
@@ -38,22 +42,26 @@
               <input type="checkbox">Wimbledon</checkbox>
               <input type="checkbox">US Open</checkbox>
 
+  <div class="selectdiv">
               <label>Choose your favourite court:</label>
-              <select name="tennis6">
-                <option>Hard</option>
-                <option>Clay</option>
-                <option>Grass</option>
-                <option>Carpet</option>
+              <select name="tennis6" class="tennis6">
+                <option class="s2">Hard</option>
+                <option class="s2">Clay</option>
+                <option class="s2">Grass</option>
+                <option  class="s2">Carpet</option>
               </select>
+</div>
+              <label>Describe your experience from Tournaments:</label>
+              <!-- <input type="text" class="lol"> -->
+              <textarea rows="20" cols="101" class="ta">
 
-              <label>Describe your experience</label>
-              <input type="text">
+              </textarea>
 
               <label>Type your password:</label>
-              <input type="password">
+              <input type="password" class="pswd">
 
-      <label>Upload your photo:</label>
-              <input type="file">
+              <label>Upload your photo from court:</label>
+              <input type="file" class="files">
 
               <label>Submit your form:</label>
               <input type="submit">

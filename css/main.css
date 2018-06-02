@@ -5,7 +5,9 @@
 }
 
 h1,h2,h3,h4,h5,h6{
-    margin: 0;
+    /* margin: 0; */
+    text-align: center;
+    font-family: fantasy;
 }
 
 p{
@@ -21,12 +23,90 @@ label{
     display: block;
     font-family: cursive;
     font-size: 14;
+
+    /* width: 100%; */
+    background-color: #86abc4;
+    color:#1b341a;
+    height: 75px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* vertical-align:   middle; */
+    border-radius: 10px;
     text-align: center;
 }
 
 input{
   display: block;
-  align-items: center;
+  align: middle;
+  /* padding-left: 40%; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* position: absolute; */
+
+  /* border-radius: 0; */
+}
+/*
+text{
+  size: 35;
+} */
+
+textarea{
+  border-radius: 5px;
+}
+
+.ta{
+
+}
+
+.pswd{
+  border-radius: 3px;
+  border-style: double;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+textarea{
+  /* resize: both; */
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ select option{
+   margin-top: 10px;
+ }
+.s2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.files{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+input submit{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* input radio{
+  display: inline;
+} */
+
+.lol{
+  border-radius: 1;
 }
 
 body{
@@ -34,6 +114,13 @@ body{
     font-size:16px;
     line-height:1.5;
     color:#1b341a;
+}
+
+.pollb{
+  /* display: flex; */
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Main layout */
@@ -173,6 +260,7 @@ a[href^="http://"]:hover, a[href^="https://"]:hover{
     margin-left: 20px;
 }
 .copyright{
+  margin-top: 15px;
     font-size:10px;
     margin-bottom: 15px;
 }
