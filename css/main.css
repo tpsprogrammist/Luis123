@@ -20,6 +20,13 @@ html,body{
     padding: 0;
 }
 
+.voice{
+  display: table;
+  margin: 0 auto;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+}
+
 label{
     display: block;
     font-family: cursive;
